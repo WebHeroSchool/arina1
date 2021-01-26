@@ -1,13 +1,13 @@
 
 body{
 	margin:0;
-	border:dashed 1px red;
+	
 }
 
 .wrapper{
 	width: 80%;
 	margin: auto;
-	border:dashed 1px red;
+
 }
 
 .header{
@@ -18,7 +18,7 @@ body{
 
 .logo, .menu{
 	display: inline-block;
-	border:dashed 1px red;
+	
 }
 
 .logo{
@@ -56,6 +56,7 @@ body{
 .menu{
 	display: flex;
 	align-items: center;
+	font-family: 'robotoregular', arial, helvetica, sans-serif;
 }
 .menu__item{
 	padding: 0 13px;
