@@ -4,7 +4,7 @@ body{
 }
 
 .wrapper{
-	width: 80%;
+	width: 68%;
 	margin: auto;
 
 }
@@ -13,6 +13,7 @@ body{
 	display: flex;
 	justify-content: space-between;
 	padding: 40px 0;
+	margin-bottom: 100px;
 }
 
 .logo, .menu{
@@ -23,17 +24,17 @@ body{
 .logo{
 	width: 190px;
 	height: 35px;
-	background: url('img/logo.svg');
+	background:  no-repeat url('img/logo.svg');
+	
 }
 
 .menu{
 	display: flex;
 	align-items: center;
-	font-family: 'robotoregular', arial, helvetica, sans-serif;
 }
 .menu__item{
-	margin-right: 26px;
-	font:500 18px/21px 'robotoregular', arial, helvetica, sans-serif;
+	margin-right: 24px;
+	font:500 14px/16px 'robotoregular', arial, helvetica, sans-serif;
 	color: #000000;
 	text-decoration: none;
 	position: relative;
@@ -76,14 +77,39 @@ body{
 	width: 100%;
 }
 
-.main-content__title{
-	font-family: 'pt_serifregular', arial, helvetica, sans-serif;
+.main{
+	padding: 0 61% 100px 0;
+    background: top right no-repeat url('img/main.svg');
+    
 }
 
-.main-content__description{
-	font-family: 'robotoregular', arial, helvetica, sans-serif;
+.main__title{
+	font:700 50px/66px 'pt_serifregular', arial, helvetica, sans-serif;
+	margin: 0 0 40px 0;
+	
 }
 
-.main-content__button{
-	font-family: 'robotoregular', arial, helvetica, sans-serif;
+.main__description{
+	font: 500 18px/21px'robotoregular', arial, helvetica, sans-serif;
+	margin: 0 0 41px 0;
+	
+}
+
+.main__title_text_highlight{
+	background: #ECF3FF;
+}
+
+.main__button{
+	display: inline-block;
+	font: 500 14px/16px 'robotoregular', arial, helvetica, sans-serif;
+    text-decoration: none;
+    padding: 14px 16px;
+    background:#0056EC;
+    color: #FFFFFF;
+    border-radius: 4px;
+    transition: opacity 0.5s;
+}
+
+.main__button:hover{
+	opacity: .5;
 }
